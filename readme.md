@@ -1,0 +1,1 @@
+mais um curso que estou fazendo na alura. agora aprendendo sobre o SCSS assim, ate agora n achei dificil n. mas fiquei na duvidada se realmente melhora a eficiencia.

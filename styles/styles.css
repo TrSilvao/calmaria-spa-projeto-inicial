@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  padding: 2rem;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+header nav .linha {
+  border-top: 1px solid black;
+  width: 80%;
+}
+header nav ul {
+  display: inline-flex;
+  gap: 2rem;
+}
+header nav li {
+  list-style-type: none;
+}
+header nav a {
+  text-decoration: none;
+  font-family: "montserrat", sans-serif;
+  font-size: 1rem;
+  color: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+  font-weight: 500;
+}
+header #home {
+  max-width: 1040px;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #home .textos-home {
+  max-width: 464px;
+}
+header #home .textos-home h1 {
+  font-family: "krona One", sans-serif;
+  font-size: 42px;
+  color: #0C0421;
+  margin-bottom: 2rem;
+}
+header #home .textos-home h1 span {
+  color: #4E75FF;
+}
+header #home .textos-home .btn-main {
+  font-family: "montserrat", sans-serif;
+  font-size: 22px;
+  color: #FFFFFF;
+  background-color: #4E75FF;
+  font-weight: 600;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 50px;
+}
+header #home .img-home {
+  max-width: 474px;
+}
+header #home .img-home img {
+  width: 100%;
+}
+
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
+}
+#nosso-espaco .detalhes {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 2rem;
+}
+#nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
+  max-width: 500px;
+}
+#nosso-espaco .detalhes .espaco-textos .titulo {
+  font-family: "krona One", sans-serif;
+  font-size: 1.8rem;
+  color: #4E75FF;
+  font-weight: 500;
+}
+#nosso-espaco .detalhes .espaco-textos .infos {
+  font-family: "montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
+}
+#nosso-espaco .detalhes .espaco-textos .separador {
+  width: 100%;
+}
+#nosso-espaco .detalhes:nth-child(2) {
+  flex-direction: row-reverse;
+}/*# sourceMappingURL=styles.css.map */
