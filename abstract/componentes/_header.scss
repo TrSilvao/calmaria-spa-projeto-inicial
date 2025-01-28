@@ -24,6 +24,9 @@ header {
             text-decoration: none;
             @include mixins.ff-fs-cl(variaveis.$ft-textos, 1rem, variaveis.$gradiente-secundario);
             font-weight: 500;
+            &:hover{
+                font-weight: bold;
+            }
         }
     }
     #home {
@@ -43,11 +46,16 @@ header {
             }            
             .btn-main {
                 @include mixins.ff-fs-cl(variaveis.$ft-textos, 22px, variaveis.$cor-texto-botao);
-                background-color: variaveis.$cor-secundaria;               
+                background-color: variaveis.$cor-terciaria;               
                 font-weight: 600;
                 border: none;
                 padding: 1rem 4rem;   
                 border-radius: 50px;  
+                transition: .3s background-color;
+                &:hover{
+                    cursor: pointer;
+                    background-color: variaveis.$cor-secundaria;
+                }
             }        
         }
         .img-home {

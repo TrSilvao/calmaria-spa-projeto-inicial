@@ -32,6 +32,9 @@ header nav a {
   color: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
   font-weight: 500;
 }
+header nav a:hover {
+  font-weight: bold;
+}
 header #home {
   max-width: 1040px;
   margin: 0 auto;
@@ -56,11 +59,16 @@ header #home .textos-home .btn-main {
   font-family: "montserrat", sans-serif;
   font-size: 22px;
   color: #FFFFFF;
-  background-color: #4E75FF;
+  background-color: #85A0FF;
   font-weight: 600;
   border: none;
   padding: 1rem 4rem;
   border-radius: 50px;
+  transition: 0.3s background-color;
+}
+header #home .textos-home .btn-main:hover {
+  cursor: pointer;
+  background-color: #4E75FF;
 }
 header #home .img-home {
   max-width: 474px;
@@ -100,4 +108,76 @@ header #home .img-home img {
 }
 #nosso-espaco .detalhes:nth-child(2) {
   flex-direction: row-reverse;
+}
+
+#servico {
+  background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
+  padding: 5rem 0;
+}
+#servico .cards {
+  margin: 0 auto;
+  width: 80%;
+  gap: 1.5rem;
+  display: flex;
+}
+#servico .cards .card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 3rem;
+}
+#servico .cards .card-titulo {
+  font-family: "krona One", sans-serif;
+  font-size: 1.6rem;
+  color: #0C0421;
+}
+#servico .cards .card-texto {
+  font-family: "montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
+}
+
+#desconto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+#desconto h4 {
+  font-family: "krona One", sans-serif;
+  font-size: 1.6rem;
+  color: #0C0421;
+}
+#desconto p {
+  font-family: "montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
+}
+#desconto .input-btn {
+  width: 790px;
+  height: 65px;
+  border: 1px solid #4E75FF;
+  border-radius: 65px;
+  margin: 0 auto;
+  display: inline-flex;
+}
+#desconto .input-btn input {
+  font-family: "montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #0C0421;
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+  width: 513.5px;
+}
+#desconto .input-btn button {
+  font-family: "montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  width: 276.5px;
+  background: #4E75FF;
+  border-radius: 0 65px 65px 0;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
